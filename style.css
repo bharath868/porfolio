@@ -509,12 +509,23 @@ h3{
         
     }
     
+    .home1{
+        flex-direction: column;
+        align-items: center;
+    }
+    .home1 #about{
+        width:90%;
+    }
+    
 }
-@media  screen and (max-width:300px) {
-    .main{
-        grid-template-columns: 1fr 1fr;
-    }    
-}
+
+
+
+
+
+
+
+
 .fish img:nth-child(1), .fishleft img:nth-child(4){
     animation-delay: 5s;
 }
@@ -657,5 +668,3 @@ h3{
     animation: move1 12s linear infinite;
     
 }
-
-
