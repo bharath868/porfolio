@@ -5,9 +5,9 @@ body{
     margin:0;
     padding:0;
     height:100%;
-    min-width:500px;
     font-family: 'Roboto', sans-serif;
 }
+
 /* Skills */
 .skills{
     display: flex;
@@ -346,6 +346,7 @@ p{
 .certify{
     display:flex;
     flex-direction: column;
+    align-items: center;
 }
 .cert{
     display:grid;
@@ -491,9 +492,6 @@ p{
 }
 
 @media screen and (max-width: 600px){
-    .main{
-        grid-template-columns: 1fr 1fr;
-    }
     .cert{
         grid-template-columns: 1fr;
         justify-content: center;
@@ -501,7 +499,11 @@ p{
     }
     
 }
-
+@media  screen and (max-width:300px) {
+    .main{
+        grid-template-columns: 1fr 1fr;
+    }    
+}
 .fish img:nth-child(1), .fishleft img:nth-child(4){
     animation-delay: 5s;
 }

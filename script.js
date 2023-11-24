@@ -1,3 +1,6 @@
+$("body").on('contextmenu', function(e){
+    return false;
+});
 function ad(){
     document.getElementById("form0").style.display="block";
     document.documentElement.scrollTop=0;
